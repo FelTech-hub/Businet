@@ -1,0 +1,54 @@
+header{
+    background: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)), url("../image/header2.jpg") no-repeat center center;
+    background-size: cover;
+    height: 400px;
+}
+
+.nav{
+    opacity: 0.9 !important;
+}
+
+.showcase{
+    margin-top: 5rem;
+}
+
+.showcase h1{
+    font-size: 3rem;
+}
+
+.jumbotron{
+    background: transparent !important;
+}
+
+.img{
+    width: 100%;
+}
+
+      /*Extra small devices (portrait phones, less than 576px)*/
+        /*No media query for `xs` since this is the default in Bootstrap*/
+
+        /*Small (-sm-) devices (landscape phones, 576px and up)*/
+        @media (min-width: 576px) {
+            header{
+                height: 800px;
+            }
+            .showcase{
+                margin-top: 2rem;
+            }
+
+         .showcase h1{
+                font-size: 2.5rem;
+            }
+        }
+        /*Medium (-md-) devices (tablets, 768px and up)*/
+        @media (min-width: 768px) {
+
+        }
+        /*Large (-lg-) devices (desktops, 992px and up)*/
+        @media (min-width: 992px) {
+
+        }
+        /*Extra large (-xl-) devices (large desktops, 1200px and up)*/
+        @media (min-width: 1200px) {
+
+        }
